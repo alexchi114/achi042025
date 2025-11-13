@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: blue;
+}
+
+.container {
+  min-height: 10rem;
+  max-width: 75rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+#pageheader {
+  background-color: aliceblue;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: none;
+  background-image: url(Images/logo.png);
+}
+
+#pageheader .container {
+  background-color: azure;
+  min-height: auto;
+  text-align: center;
+}
+#media {
+  background-color: gainsboro;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/hero.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+}
+#career {
+  background-color: darkcyan;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagecontent {
+  background-color: darkkhaki;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester1 {
+  background-color: blueviolet;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester2 {
+  background-color: red;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagefooter {
+  background-color: aquamarine;
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  text-align: center;
+  min-height: auto;
+}
+#subfooter {
+  background-color: darkorchid;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: auto;
+  background-color: red;
+  border: 5px solid red;
+}
+blockquote {
+  background-color: none;
+  padding: 1rem;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+blockquote + span {
+  padding: 1rem;
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 1.25rem;
+}
