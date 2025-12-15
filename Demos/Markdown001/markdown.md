@@ -14,6 +14,8 @@
 
 <!-- Italics -->
 
+this is _italic_
+
 This text is _italic_
 
 <!-- Strong -->
@@ -30,9 +32,9 @@ This is both **_strong italic_**
 
 > This is a blockquote
 
-<!-- Links -->
+<!-- Links/Anchors -->
 
-[Alexanderchi.com](https://alexander.com "Got to Alexander.com")
+[Alexanderchi.com](https://alexander.com "Go to Alexander.com")
 
 <!-- Lists -  ordered and unordered -->
 
@@ -46,6 +48,7 @@ This is both **_strong italic_**
 - Item one
 - item Two
 - Item three
+  - 4.1
 
 <!-- Code -->
 

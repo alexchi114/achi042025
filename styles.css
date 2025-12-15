@@ -31,6 +31,25 @@ body {
   min-height: auto;
   text-align: center;
 }
+#pageheader nav {
+  text-align: center;
+}
+#pageheader nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#pageheader nav ul li {
+  border: 2px solid seashell;
+  padding: 1rem;
+  background-color: lightcyan;
+  margin: 2px;
+  border-radius: 10px;
+}
+#pageheader nav ul li:hover {
+  background-color: lightgreen;
+}
+
 #media {
   background-color: gainsboro;
   min-height: 10rem;
@@ -107,4 +126,30 @@ blockquote + span {
   margin: 0 auto;
   text-align: right;
   font-size: 1.25rem;
+}
+
+@media screen and (min-width: 850px) {
+  #pageheader nav ul {
+    background-color: cyan;
+    margin: 2rem;
+  }
+
+  #pageheader nav ul li {
+    display: inline-block;
+  }
+
+  #pagecontent {
+    background-color: red;
+  }
+  #career {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: blue;
+  }
+  #career {
+    background-color: red;
+  }
 }
