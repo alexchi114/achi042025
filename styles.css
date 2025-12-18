@@ -128,7 +128,7 @@ blockquote + span {
   font-size: 1.25rem;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1050px) {
   #pageheader nav ul {
     background-color: cyan;
     margin: 2rem;
