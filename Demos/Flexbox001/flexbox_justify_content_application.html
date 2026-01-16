@@ -55,6 +55,21 @@
             display: flex;
             padding: 1rem;
             flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        #linklist {
+            padding: 1rem;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            width: 50%;
+            margin: auto;
+        }
+
+        li {
+            list-style-type: none;
         }
     </style>
 </head>
@@ -78,26 +93,27 @@
         <button type="button">Button 4</button>
         <button type="button">Button 5</button>
     </div>
-    <div id="cardcontainer">
 
-        <h2>Cards</h2>
+
+    <h2>Cards</h2>
+    <div id="cardcontainer">
         <div class="card">
             <h3>Card Title 1</h3>
             <p>This is a description for card 1.</p>
         </div>
         <div class="card">
             <h3>Card Title 2</h3>
-            <p>This is a description for card 1.</p>
+            <p>This is a description for card 2.</p>
         </div>
         <div class="card">
             <h3>Card Title 3</h3>
-            <p>This is a description for card 1.</p>
+            <p>This is a description for card 3.</p>
         </div>
 
     </div>
     <h2>Link Lists</h2>
-    <ul>
-        <li><a href="https://google.com/">Google</a></li;>
+    <ul id="linklist">
+        <li><a href="https://google.com/">Google</a></li>
         <li><a href="https://google.com/">Google</a></li>
         <li><a href="https://google.com/">Google</a></li>
         <li><a href="https://google.com/">Google</a></li>
