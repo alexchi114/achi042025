@@ -1,3 +1,9 @@
+/* mobile view - default */
+#root {
+  --primary-color: palevioletred;
+  --secondary-color: paleturquoise;
+  --third-color: palegoldenrod;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -24,6 +30,7 @@ body {
   height: 6.25rem;
   background-color: none;
   background-image: url(Images/logo.png);
+  margin: auto;
 }
 
 #pageheader .container {
@@ -112,6 +119,14 @@ audio {
   background-color: red;
   border: 5px solid red;
 }
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+  #logo {
+    margin: 0;
+  }
+}
 blockquote {
   background-color: none;
   padding: 1rem;
@@ -127,7 +142,7 @@ blockquote + span {
   text-align: right;
   font-size: 1.25rem;
 }
-
+/* tablet view */
 @media screen and (min-width: 1050px) {
   #pageheader nav ul {
     background-color: cyan;
@@ -144,12 +159,19 @@ blockquote + span {
   #career {
     background-color: blue;
   }
+  #logo {
+    margin: auto;
+  }
 }
+/* Desktop view */
 @media screen and (min-width: 1000px) {
   #pagecontent {
     background-color: blue;
   }
   #career {
     background-color: red;
+  }
+  #logo {
+    margin: 0;
   }
 }
