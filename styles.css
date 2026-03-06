@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: blue;
+  background-color: #fdef85;
 }
 
 .container {
@@ -81,7 +81,7 @@ body {
   padding: 1rem;
 }
 #semester2 {
-  background-color: red;
+  background-color: #f6ef84;
   min-height: 10rem;
   padding: 1rem;
 }
@@ -166,10 +166,10 @@ blockquote + span {
 /* Desktop view */
 @media screen and (min-width: 1000px) {
   #pagecontent {
-    background-color: blue;
+    background-color: #f6ef84;
   }
   #career {
-    background-color: red;
+    background-color: #f75320;
   }
   #logo {
     margin: 0;
