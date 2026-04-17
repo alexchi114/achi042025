@@ -142,6 +142,17 @@ blockquote + span {
   text-align: right;
   font-size: 1.25rem;
 }
+.vujahday-script-regular {
+  font-family: "Vujahday Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* tablet view */
 @media screen and (min-width: 1050px) {
   #pageheader nav ul {
