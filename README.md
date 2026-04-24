@@ -1,6 +1,6 @@
-#Alexander Chi
+# Alexander Chi
 
-#Portfolio
+# Portfolio
 
 ## this is a webpage
 
