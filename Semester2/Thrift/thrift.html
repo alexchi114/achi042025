@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coalinga Thrift Shop</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45),
+                    rgba(0, 0, 0, 0.45)),
+                url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1600&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gallery-img {
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body class="bg-stone-50 text-gray-800 font-sans">
+
+    <!-- NAVBAR -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-wide">
+                Coalinga Thrift Shop
+            </h1>
+
+            <nav class="hidden md:flex gap-8 text-sm font-medium">
+                <a href="#gallery" class="hover:text-amber-700">Gallery</a>
+                <a href="#inside" class="hover:text-amber-700">Inside the Store</a>
+                <a href="#reviews" class="hover:text-amber-700">Reviews</a>
+                <a href="#contact" class="hover:text-amber-700">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-bg min-h-[80vh] flex items-center">
+        <div class="max-w-7xl mx-auto px-6 text-white">
+            <div class="max-w-2xl">
+                <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                    Hidden Treasures.<br />
+                    Everyday Finds.
+                </h2>
+
+                <p class="text-lg md:text-xl text-gray-200 mb-8">
+                    Discover affordable clothing, vintage items, furniture,
+                    collectibles, and unique thrift finds in the heart of Coalinga.
+                </p>
+
+                <a href="#gallery"
+                    class="inline-block bg-amber-700 hover:bg-amber-800 transition px-8 py-4 rounded-xl text-white font-semibold">
+                    Explore the Shop
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-20 px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+
+            <div>
+                <img src="Images/aboutus2.jpg" alt="Thrift store placeholder" class="rounded-3xl shadow-xl" />
+            </div>
+
+            <div>
+                <p class="uppercase tracking-[0.3em] text-amber-700 text-sm font-semibold mb-3">
+                    About Us
+                </p>
+
+                <h3 class="text-4xl font-bold mb-6">
+                    A Local Coalinga Favorite
+                </h3>
+
+                <p class="text-gray-600 leading-relaxed mb-5">
+                    Coalinga Thrift Shop offers a welcoming place to discover
+                    secondhand treasures, affordable essentials, and one-of-a-kind
+                    items for every shopper.
+                </p>
+
+                <p class="text-gray-600 leading-relaxed">
+                    Whether you're searching for vintage fashion, home décor,
+                    collectibles, or everyday bargains, there’s always something new
+                    waiting to be found.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="bg-white py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+
+            <div class="text-center mb-14">
+                <p class="uppercase tracking-[0.3em] text-amber-700 text-sm font-semibold mb-3">
+                    Gallery
+                </p>
+
+                <h3 class="text-4xl font-bold">
+                    Featured Finds
+                </h3>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <img src="Images/Finds/duckfloat.jpg"
+                    class="gallery-img rounded-2xl h-80 w-full object-cover shadow-lg" />
+
+                <img src="Images/Finds/gears.jpg" class="gallery-img rounded-2xl h-80 w-full object-cover shadow-lg" />
+
+                <img src="Images/Finds/lamb.jpg" class="gallery-img rounded-2xl h-80 w-full object-cover shadow-lg" />
+
+                <img src="Images/Finds/minijeep.jpg"
+                    class="gallery-img rounded-2xl h-80 w-full object-cover shadow-lg" />
+
+                <img src="Images/Finds/prom.jpg" class="gallery-img rounded-2xl h-80 w-full object-cover shadow-lg" />
+
+                <img src="Images/Finds/shoes.jpg" class="gallery-img rounded-2xl h-80 w-full object-cover shadow-lg" />
+
+            </div>
+        </div>
+    </section>
+
+    <!-- INSIDE STORE -->
+    <section id="inside" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+
+            <div class="text-center mb-14">
+                <p class="uppercase tracking-[0.3em] text-amber-700 text-sm font-semibold mb-3">
+                    Inside the Store
+                </p>
+
+                <h3 class="text-4xl font-bold">
+                    A Look Around
+                </h3>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-6">
+
+                <img src="Images/dream.jpg" class="rounded-3xl h-96 w-full object-cover shadow-xl" />
+
+                <img src="Images/desk&toys.jpg" class="rounded-3xl h-96 w-full object-cover shadow-xl" />
+
+                <img src="Images/selection3.jpg" class="rounded-3xl h-96 w-full object-cover shadow-xl" />
+
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="bg-stone-100 py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="text-center mb-14">
+                <p class="uppercase tracking-[0.3em] text-amber-700 text-sm font-semibold mb-3">
+                    Reviews
+                </p>
+
+                <h3 class="text-4xl font-bold">
+                    What Customers Say
+                </h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-white p-8 rounded-3xl shadow-md">
+                    <p class="text-gray-600 mb-6">
+                        “love going to this thrift shop. better than Lemoore and Hanford. good fair prices and always
+                        have a little bit of
+                        everything.
+                        ”
+                    </p>
+
+                    <h4 class="font-semibold">— Lori N Chris</h4>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-md">
+                    <p class="text-gray-600 mb-6">
+                        lots of items for sale.
+                        So you have to go into store to see or find it.”
+                    </p>
+
+                    <h4 class="font-semibold">— Tint Mobiletint.</h4>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-md">
+                    <p class="text-gray-600 mb-6">
+                        “I've been going here for years and have witnessed the dedication this store has for our
+                        community. Here are just some of
+                        my favorite reasons for shopping here...
+                        Fair, excellent prices, huge variety of items from books, picture frames, clthes, sewing
+                        supplies and glass wear.
+                        Seasonal items clothes, The list goes on. oh, and... the music variety that plays overhead makes
+                        it a great place to
+                        browse on a rainy day”
+                    </p>
+
+                    <h4 class="font-semibold">— Deb Crawford</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+
+            <p class="uppercase tracking-[0.3em] text-amber-700 text-sm font-semibold mb-3">
+                Visit Us
+            </p>
+
+            <h3 class="text-4xl font-bold mb-8">
+                Coalinga Thrift Shop
+            </h3>
+
+            <div class="bg-white shadow-xl rounded-3xl p-10">
+
+                <p class="text-lg mb-4">
+                    198 W. Forest St.<br />
+                    Coalinga, CA 93210
+                </p>
+
+                <p class="text-lg mb-8">
+                    (559) 935-1053
+                </p>
+
+                <a href="tel:15599351053"
+                    class="inline-block bg-amber-700 hover:bg-amber-800 transition px-8 py-4 rounded-xl text-white font-semibold">
+                    Call the Shop
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-300 py-8 text-center">
+        <p>
+            © 2026 Coalinga Thrift Shop • All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+
+</html>

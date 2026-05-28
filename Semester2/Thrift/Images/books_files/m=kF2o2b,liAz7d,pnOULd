@@ -1,0 +1,14 @@
+loaded_h_0(function(_){var window=this;
+_.v("kF2o2b");
+_.cg(_.$0a,class extends _.to{constructor(){super();this.Ba=new Set;this.Ca=new Set;this.oa=new Set}updateSrpSuggestionGroup(a,b){for(let c of this.Ba)c.gCe(a,b);this.Aa()}Aa(){for(let a of this.Ca)a.hCe()}updateMagiStateParams(a){for(let b of this.oa)b.fCe(a)}j0d(a){this.Ba.add(a)}k0d(a){this.Ca.add(a)}i0d(a){this.oa.add(a)}});
+_.x();
+_.v("liAz7d");
+_.kPq=new _.Xf(_.a1a);
+_.x();
+_.v("pnOULd");
+_.cg(_.b1a,class extends _.to{static Ta(){return{service:{navigation:_.iw,knc:_.kPq}}}constructor(a){super();this.hc=a.service.navigation;this.knc=a.service.knc}updateLinks(a){_.yYd("q",a)}navigateTo(a,b=!1){this.hc.navigateTo(a,b)}hideMobileModeSelector(){if(!_.KWd()){var a=_.wYd();a&&(a.style.display="none")}}showMobileModeSelector(){if(!_.KWd()){var a=_.wYd();a&&(a.style.display="")}}updateSrpSuggestionGroup(a,b){this.knc.updateSrpSuggestionGroup(a,b)}updateMagiStateParams(a){this.knc.updateMagiStateParams({UFa:a})}fetch(a,
+b){return _.IZb(a,{urlParams:b})}});
+
+_.x();
+});
+// Google Inc.
